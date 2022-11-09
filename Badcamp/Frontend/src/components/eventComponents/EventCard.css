@@ -1,0 +1,17 @@
+.eventCard{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
+}
+.upVote{
+    text-align: right;
+}
+.upvote-img{
+    height: 2rem;
+}
+a.subtitle{
+    color :rgb(0, 0, 0);
+}
+a.subtitle:visited{
+    color:black
+}
