@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import './NavBar.css';
 import { useContext } from 'react';
 import AuthContext from '../../contexts/AuthProvider';
@@ -22,7 +22,6 @@ const NavBar = () => {
             <ul>
                 <li><Link to="/SongListing">Home</Link></li>
                 <li><Link to="/ArtistListing">Artists</Link></li>
-                <li><Link to={`profile/${storedUser.userId}`}>Profile</Link></li>
                 <li><Link to={`profile/${storedUser.userId}`}>Profile</Link></li>
                 <li><Link to={`artistpage/1`}>MyArtistPage</Link></li>
                 <li><Link to="register">Register</Link></li>
